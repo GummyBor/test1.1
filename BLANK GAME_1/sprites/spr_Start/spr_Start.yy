@@ -1,10 +1,16 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_all_tiles",
+  "%Name":"spr_Start",
   "bboxMode":0,
+<<<<<<< HEAD:BLANK GAME_1/sprites/spr_Start/spr_Start.yy
+  "bbox_bottom":11,
+  "bbox_left":0,
+  "bbox_right":49,
+=======
   "bbox_bottom":191,
   "bbox_left":0,
   "bbox_right":191,
+>>>>>>> upstream/main:BLANK GAME_1/sprites/spr_all_tiles/spr_all_tiles.yy
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,15 +18,23 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2ff9b006-4bda-4a54-b0cb-f6223cee1e04","name":"2ff9b006-4bda-4a54-b0cb-f6223cee1e04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d2c75d01-4003-4085-97a7-3f3c1393fa50","name":"d2c75d01-4003-4085-97a7-3f3c1393fa50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":480,
+  "height":12,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7688ab7c-4de5-4c2b-a1cf-5cc4fd63ce56","blendMode":0,"displayName":"default","isLocked":false,"name":"7688ab7c-4de5-4c2b-a1cf-5cc4fd63ce56","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"559eab5d-9dfc-4d18-bd62-7e5d7951ce62","blendMode":0,"displayName":"default","isLocked":false,"name":"559eab5d-9dfc-4d18-bd62-7e5d7951ce62","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
+<<<<<<< HEAD:BLANK GAME_1/sprites/spr_Start/spr_Start.yy
+  "name":"spr_Start",
+  "nineSlice":null,
+  "origin":0,
+  "parent":{
+    "name":"UI_Sprites",
+    "path":"folders/Sprites/UI_Sprites.yy",
+=======
   "name":"spr_all_tiles",
   "nineSlice":{
     "$GMNineSliceData":"",
@@ -46,13 +60,14 @@
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
+>>>>>>> upstream/main:BLANK GAME_1/sprites/spr_all_tiles/spr_all_tiles.yy
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_all_tiles",
+    "%Name":"spr_Start",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -76,22 +91,22 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_all_tiles",
+    "name":"spr_Start",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":480.0,
-    "seqWidth":480.0,
+    "seqHeight":12.0,
+    "seqWidth":50.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ff9b006-4bda-4a54-b0cb-f6223cee1e04","path":"sprites/spr_all_tiles/spr_all_tiles.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a3f5047e-3b85-4f40-a425-485c3bffe1a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d2c75d01-4003-4085-97a7-3f3c1393fa50","path":"sprites/spr_Start/spr_Start.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7bea8400-b896-40fa-a058-1f5f15cb736b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -107,5 +122,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":480,
+  "width":50,
 }
